@@ -1,0 +1,500 @@
+.encabezado
+{
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    box-shadow: 0px 5px 10px rgb(23, 22, 22);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    
+}
+/* textos */
+
+.textos
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+    margin-left: 35px;
+    
+
+
+}
+.textos:hover
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 89, 241);
+    color: rgb(43, 89, 241);
+    transition: 0.5s;
+}
+/* movimiento */
+/* Clases de rotacion */
+
+.carrusel-rotativo
+{
+    width: 3280px;
+    height: 600px;
+    margin: 50px auto 0;
+    overflow: hidden;
+
+}
+.carrusel-rotativo ul
+{
+    padding:  0;
+    display: flex;
+    width: 400%;
+    animation: slide 16s infinite alternate ease-in-out;
+    
+}
+.carrusel-rotativo li
+{
+    list-style: none;
+    width: 100%;
+}
+.carrusel-rotativo img
+{
+    width: 100%;
+
+}
+@keyframes slide 
+    {
+    0% {margin-left: 0%};    
+    10% {margin-left: 0%};  
+
+    10% {margin-left: -50%;}  
+    20% {margin-left: -50%;}
+    
+    20% {margin-left: -100%;}  
+    30% {margin-left: -100%;}
+
+    30% {margin-left: -150%;}  
+    40% {margin-left: -150%;}
+
+    50% {margin-left: -200%;}  
+    60% {margin-left: -200%;}
+
+    70% {margin-left: -100%;}  
+    80% {margin-left: -100%;}
+
+    80% {margin-left: -300%;}  
+    100% {margin-left: -300%;}
+
+   
+    }
+
+.textos
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+    
+
+
+}
+/* textos */
+.textos:hover
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 89, 241);
+    color: rgb(43, 89, 241);
+    transition: 0.5s;
+}
+
+.texto1
+{
+    font-size: 20px;
+    color: beige;
+    margin-left: 30PX;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.texto2
+{
+    font-size: 30px;
+    color: beige;
+    margin-left: 150PX;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+.Tendencias
+{
+font-family: Arial, Helvetica, sans-serif;    font-size: 15px;
+    transition: 0.5s;
+    color: aliceblue;
+    margin-left: 40PX;
+
+    
+
+
+}
+
+.Tendencias:hover
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 89, 241);
+    color: rgb(43, 89, 241);
+
+    transition: 0.5s;
+}
+.Extrenos
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: 0.5s;
+    color: aliceblue;
+    margin-left: 45PX;
+
+
+
+}
+
+.Extrenos:hover
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 89, 241);
+    color: rgb(43, 89, 241);
+    transition: 0.5s;
+}
+.Taquilleras
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: 0.5s;
+    color: aliceblue;
+    margin-left: 50PX;
+
+
+
+}
+
+.Taquilleras:hover
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 89, 241);
+    color: rgb(43, 89, 241);
+    transition: 0.5s;
+}
+/* Fotos */
+/* fila2 */
+.imagen5
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen5:hover
+{
+    filter: sepia(80%);
+    transition: 0.5s;
+}
+.imagen6
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen6:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+
+
+/* fila1 */
+.imagen1
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen1:hover
+{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.imagen2
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen2:hover
+{
+    filter: sepia(80%);
+    transition: 0.5s;
+}
+.imagen3
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen3:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.imagen4
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen4:hover
+{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+/* fila2 */
+.imagen5
+{
+
+    width: 300px;
+    /* margin-left: 30px; */
+}
+.imagen5:hover
+{
+    filter: sepia(80%);
+    transition: 0.5s;
+}
+.imagen6
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen6:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.imagen7
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen7:hover
+{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.imagen8
+{
+
+    width: 300px;
+    margin-left: 30px;
+}
+.imagen8:hover
+{
+    filter: sepia(80%);
+    transition: 0.5s;
+}
+/* fila3 */
+.imagen9
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen9:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.imagen10
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen10:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.imagen11
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.image11:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.imagen12
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen12:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+/* fila4 */
+.imagen13
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen13:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.imagen14
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen14:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}.imagen15
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen15:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}.imagen16
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen16:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+/* fila5 */
+.imagen17
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen17:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}.imagen18
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen18:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}.imagen19
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen19:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}.imagen20
+{
+
+    width: 300px;
+     margin-left: 30px;
+}
+.imagen20:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+/* TIPOGRAFIA */
+
+.caveat-uniquifier
+{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+/* peliculas detacadas */
+.derecha
+{
+    width:200px
+
+}
+
+
+
+
+/* botones */
+.vermás
+{
+    border-radius: 20px;
+    margin-left: 60px;
+    width: 1050px;
+    height: auto;
+font-size: 30px;
+color: rgb(0, 0, 0);
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+/* final */
+.final
+{
+    background-color: rgb(36, 40, 41);
+    width: 100%;
+    height: 200px;
+}
+.texto3
+{
+font-size: 18px;
+color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.texto4
+{
+font-size: 15px;
+color: aliceblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.redessociales
+{
+    width: 20px;
+    height: 20px;
+    
+}
+.logos
+{
+    margin-left: 300px;
+    width: 100%;
+    height: 10px;
+}
+.logo
+{
+    width: 200px;
+    height: 100px;
+
+}
+.tipografia
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

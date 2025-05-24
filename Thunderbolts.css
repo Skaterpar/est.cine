@@ -1,0 +1,134 @@
+.encabezado
+{
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    box-shadow: 0px 5px 10px rgb(23, 22, 22);
+    position: fixed;
+    top: 0;
+    
+}
+/* textos */
+
+.textos
+{
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+    
+
+
+}
+.textos:hover
+{
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 89, 241);
+    color: rgb(43, 89, 241);
+    transition: 0.5s;
+}
+/* imagen */
+.imagen1
+{
+    margin-left: 100px;
+    width: 250px;
+    height: auto;
+
+}
+
+.titulo1
+{
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.titulo2
+{
+    margin-top: 5px;
+    margin-left: 400px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.titulo3
+{
+    margin-left: 600px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.titulo4
+{
+    margin-left: 400px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* similares */
+.texto1
+{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 30px;
+    color: aliceblue;
+}
+/* fila1 */
+.imagen5
+{
+
+    width: 200px;
+}
+.imagen5:hover
+{
+    filter: sepia(80%);
+    transition: 0.5s;
+}
+.imagen6
+{
+
+    width: 200px;
+    margin-left: 30px;
+}
+.imagen6:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.imagen7
+{
+
+    width: 200px;
+    margin-left: 30px;
+}
+.imagen7:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.imagen8
+{
+
+    width: 200px;
+    margin-left: 30px;
+}
+.imagen8:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+
+/* vertical */
+.imagen9
+{
+
+    width: 200px;
+}
+.imagen9:hover
+{
+    filter: grayscale(100%) sepia(50%);
+    transition: 0.5s;
+}
+.peliculas
+{     
+    display: inline-block;
+}
